@@ -2,6 +2,6 @@ version: '3.8'
 services:
   web:
     container_name: webserver
-    image: nginx:alpine
+    image: nginx:alpine3.18
     ports:
     - "8080:80"
